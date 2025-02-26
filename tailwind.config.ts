@@ -60,6 +60,9 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      flex: {
+        4: "4 4 0%",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
