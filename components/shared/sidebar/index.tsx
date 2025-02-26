@@ -31,7 +31,7 @@ export default function Sidebar() {
           </li>
         ))}
       </ul>
-      <button className="p-5 my-[5px] mx-0 flex items-center gap-[10px] cursor-pointer rounded-[10px] w-full hover:bg-slate-200 dark:hover:bg-[#2e374a]">
+      <button className="p-5 my-[5px] mx-0 flex items-center gap-[10px] cursor-pointer rounded-[10px] w-full hover:bg-slate-200 dark:hover:bg-[#1e293b80]">
         <Icons.logout />
         로그아웃
       </button>
