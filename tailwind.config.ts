@@ -61,6 +61,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       flex: {
+        3: "3 3 0%",
         4: "4 4 0%",
       },
     },
