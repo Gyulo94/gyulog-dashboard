@@ -1,3 +1,4 @@
+import Footer from "@/components/shared/footer";
 import Header from "@/components/shared/header";
 import Sidebar from "@/components/shared/sidebar";
 
@@ -14,6 +15,7 @@ export default function RootLayout({
       <div className="flex-4 p-5">
         <Header />
         {children}
+        <Footer />
       </div>
     </div>
   );
