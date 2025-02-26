@@ -8,12 +8,12 @@ import { ModeToggle } from "./mode-toggle";
 export default function Header() {
   const pathname = usePathname();
   return (
-    <div className="flex justify-between items-center p-5 rounded-[10px] bg-secondary dark:bg-bgSoft">
+    <div className="flex justify-between items-center p-5 rounded-[10px] bg-secondary dark:bg-transparent dark:border">
       <div className="dark:text-textSoft font-bold capitalize">
         {pathname.split("/").pop()}
       </div>
       <div className="flex items-center gap-5">
-        <div className="flex items-center gap-[10px] bg-slate-200 dark:bg-[#2e374a] p-1 rounded-[10px]">
+        <div className="flex items-center gap-[10px] bg-slate-200 dark:bg-transparent dark:border p-1 rounded-[10px]">
           <Icons.search />
           <Input
             type="text"
