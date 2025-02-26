@@ -2,45 +2,45 @@ import { Icons } from "@/components/shared/icons";
 
 export const menuItems = [
   {
-    title: "Pages",
+    title: "페이지",
     list: [
       {
-        title: "Dashboard",
+        title: "대시보드",
         path: "/dashboard",
         icon: <Icons.dashboard />,
       },
       {
-        title: "Posts",
+        title: "포스트",
         path: "/dashboard/posts",
         icon: <Icons.posts />,
       },
       {
-        title: "Tags",
+        title: "태그",
         path: "/dashboard/tags",
         icon: <Icons.tags />,
       },
       {
-        title: "Comments",
+        title: "댓글",
         path: "/dashboard/comments",
         icon: <Icons.comments />,
       },
     ],
   },
   {
-    title: "Analytics",
+    title: "통계",
     list: [
       {
-        title: "Visitors",
+        title: "방문자",
         path: "/dashboard/visitors",
         icon: <Icons.visitors />,
       },
     ],
   },
   {
-    title: "User",
+    title: "유저",
     list: [
       {
-        title: "Profile",
+        title: "프로필",
         path: "/dashboard/profile",
         icon: <Icons.profile />,
       },

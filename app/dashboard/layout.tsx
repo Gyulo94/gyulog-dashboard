@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <div className="flex">
-      <div className="flex-1 text-white bg-bgSoft p-5">
+      <div className="flex-1 bg-secondary dark:bg-bgSoft p-5">
         <Sidebar />
       </div>
       <div className="flex-4 p-5">
